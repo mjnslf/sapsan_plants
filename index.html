@@ -1,43 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <title>CV</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <!-- inputs -->
-    <input type="text">
-    <input type="button", value="some">
-    <input type="datetime">
-    <input type="password" name="" id="">
-    <hr>
-    <br>
-    <button type="text">Tab here!</button>
-    <button type="send">Send</button>
-    <button type="reset">Reset</button>
-    <br>
-    <h1>Name Surname</h1>
-    <img src="IMG_8732.jpg" alt="some_pic" width="150" height="200">
-    <!-- unorderd -->
-    <p>Education</p>
-    <ul>
-        <li>
-            <a href="for_link.html">first</a>
-        </li>
-        <li>
-            <a href="#!">second</a>
-        </li>
-    </ul>
-    <!-- ordered -->
-    <p>work experience</p>
-    <ol>
-        <li>
-            <a href="#!">first</a>
-        </li>
-        <li>
-            <a href="#!">second</a>
-        </li>
-    </ol>
+    <header>
+        <div class="header">
+            <div class="navbar">
+                <div class="header_logo">
+                    <a href="/" class="header_logo_link">
+                        <img src="assets/logo.svg" alt="logo">
+                    </a>
+                </div>
+    
+                <nav class="nav">
+                    <ul class="nav-list">
+                      <li class="nav-item"><a href="#Home" class="nav-link">Home</a></li>
+                      <li class="nav-item"><a href="#About_us" class="nav-link">About us</a></li>
+                      <li class="nav-item"><a href="#Service" class="nav-link">Service</a></li>
+                      <li class="nav-item"><a href="#Price" class="nav-link">Price</a></li>
+                      <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="welcome" id="Home">
+            <div class="container">
+                <div class="wel-wrap">
+                    <div class="wel_leaves">
+                        <img src="assets/leafs.png" alt="leaves">
+                    </div>
+                    <div class="wel_text">
+                        <p class="inter-title">
+                            We grow <span class="green">plants</span> and give you oxygen
+                        </p>
+                        <p class="wel_describe">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        </p>
+                        <button class="button_learnMore Hover">learn more</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="About_us">
+            <div class="container_white">
+                <div class="about_wrap">
+                    <div class="about_text">
+                        <p class="about_title">
+                            We are <span class="orange">professional experienced</span> gardeners
+                        </p>
+                        <p class="about_describe">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                        </p>
+                    </div>
+                    <div class="about_plant">
+                        <div class="houseplant">
+                            <img src="assets/houseplant.png" alt="houseplant">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service" id="Service">
+            <div class="container">
+                <div class="service_wrap">
+                    <div class="service_title">
+                        <p class="service_title">Service and our<br>projects</p>
+                    </div>
+                    <div class="service_button">
+                        <button>Gardens</button>
+                        <button>Lawn</button>
+                        <button>Planting</button>
+                    </div>
+                </div>
+                <div class="service-pictures">
+                    <div class="s_pic">
+                        <img src="assets/first.png" alt="Garden Care">
+                        <p class="service_text">Garden Care</p>
+                        <p class="service_describe">Lorem Ipsum has been the industry</p>
+                    </div>
+                    <div class="s_pic">
+                        <img src="assets/first-2.png" alt="Planting">
+                        <p class="service_text">Planting</p>
+                        <p class="service_describe">Lorem Ipsum has been the industry</p>
+                    </div>
+                    <div class="s_pic">
+                        <img src="assets/first-3.png" alt="Lawn Care">
+                        <p class="service_text">Lawn Care</p>
+                        <p class="service_describe">Lorem Ipsum has been the industry</p>
+                    </div>
+                    <div class="s_pic">
+                        <img src="assets/first-4.png" alt="Planting">
+                        <p class="service_text">Planting</p>
+                        <p class="service_describe">Lorem Ipsum has been the industry</p>
+                    </div>
+                    <div class="s_pic">
+                        <img src="assets/first-5.png" alt="Garden Care">
+                        <p class="service_text">Garden Care</p>
+                        <p class="service_describe">Lorem Ipsum has been the industry</p>
+                    </div>
+                    <div class="s_pic">
+                        <img src="assets/first-6.png" alt="Planting">
+                        <p class="service_text">Planting</p>
+                        <p class="service_describe">Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="price" id="Price">
+            <div class="container_white">
+                <div class="price_wrap">
+                    <div class="price_left">
+                        <p class="price_left_text">Prices</p>
+                    </div>
+                    <div class="price_right">
+                        <p class="price_right_text">Our best <span class="green">gardeners</span> are<br>ready to help you<br>
+                            <button class='price_but'>Contact us</button>
+                        </p>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section class="contacts" id="Contacts">
+
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer_wrap">
+                <div class="footer_text">
+                    <p class="footer_text-item">
+                        ©
+                    </p>
+                    <p class="footer_text-item">
+                        2023
+                    </p>
+                    <a href="https://github.com/mjnslf" class="footer_text-item footer-github footer-link">github</a>
+                </div>
+                <a href="https://rs.school/js-stage0/" class="footer_rsschool-link footer-link">Rolling Scopes School</a>
+                <div class="footer_icons">
+                    <ul class="footer_icons-list">
+                        <li class="footer_icons-list_item">
+                            <a href="#" class="footer_icons-link footer-link">
+                                <img src="assets/instagram.svg" alt="Instagram">
+                            </a>
+                        </li>
+                        <li class="footer_icons-list_item">
+                            <a href="#" class="footer_icons-link footer-link">
+                                <img src="assets/facebook.svg" alt="Facebook">
+                            </a>
+                        </li>
+                        <li class="footer_icons-list_item">
+                            <a href="#" class="footer_icons-link footer-link">
+                                <img src="assets/twitter.svg" alt="Twitter">
+                            </a>
+                        </li>
+                        <li class="footer_icons-list_item">
+                            <a href="#" class="footer_icons-link footer-link">
+                                <img src="assets/pinterest.svg" alt="Pinterest">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
